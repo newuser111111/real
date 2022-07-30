@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+  <title>스마트팜 관리 화면</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1>자동 조절</h1>
+  <form name="선풍기 설정" method="post">
+    <ul>
+      <li>희망 온도 설정(섭씨)</li>
+      <input type="number" name="tem" min="-100" max="100">
+    </ul>
+    <ul>
+      <li>선풍기 세기 설정</li>
+      <li><input type="range" name="fan_pow" min="1" max="5"></li>
+    </ul>
+    <ul>
+      <li>워터 모터 세기 설정</li>
+      <li><input type="range" name="water_pow" min="1" max="5"></li>
+    </ul>
+    <ul>
+      <li>희망 광량 설정</li>
+      <li><input type="range" name="water_pow" min="1" max="5"></li>
+    </ul>
+      <li><input type="submit" value="적용" onclick="alert('적용되었습니다.')"></li>
+  </form><br>
+  <a href="main.html">돌아가기</a>
+</body>
